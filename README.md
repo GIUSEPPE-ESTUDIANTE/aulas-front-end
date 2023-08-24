@@ -15,3 +15,12 @@ cascata, e possui 3 formas de implementaçâo.
 
 o CSS e aplicado diretamente em cada tag HTML.
 
+### interna ou OnPage(na pagina)
+
+O CSS è criando regras (com seletores, 
+propriedades e valores) dentro da propria
+pagina que queremos formatar.
+
+as regras vâo valer para todas as tags/
+elementos desta pagina.
+
