@@ -24,3 +24,23 @@ pagina que queremos formatar.
 as regras vâo valer para todas as tags/
 elementos desta pagina.
 
+---
+
+### Sobre seletores
+
+### Tag
+
+Regras criadas com seletor do tipo tag, sâo mais
+generalistas, ou seja, a formataçâo serà aplicadas à todas
+as tags que casem com o seletor.
+
+#### Classe 
+
+regras criadas com seletor do tipo classe, sâo mais 
+versateis, ou seja, você desenvolvedor(a) determina onde
+aplicar a classe e sua formataçâo.
+
+classes pode ser reutilizadas na mesma pagina e combinadas com outras classes.
+
+
+
