@@ -42,5 +42,12 @@ aplicar a classe e sua formataçâo.
 
 classes pode ser reutilizadas na mesma pagina e combinadas com outras classes.
 
+#### ID (identificador)
+
+regras criadas com seletor do tipo id,sâO mais versateis,
+ou seja, voce desenvolvedor(a) determina onde aplicar o id
+e sua formataçâP.**ATENÇÂO!** você nâo pode reproveitar IDs,
+ou seja , seletoID deve ser usado
+
 
 

@@ -33,6 +33,22 @@
     usando seletor CLASSE */
     .centralizar{ text-align: center;}
 
+    .destaque {
+        background-color: yellow;
+        border: solid 2px blue
+    }
+
+    /* Regra CSS
+    usando seletor ID(IDENTIFICADO) */
+     #listas {
+        background-color: lightgoldenrodyellow;
+        box-shadow: black 1px 1px 3px;
+        padding: 8px;
+     }
+    
+
+    
+
     </style>
 
 
@@ -40,13 +56,15 @@
 <body>
     <p><a href="links.html">voltar</a></p>
 
-   <h1>trabalhando com lista</h1> 
+   <h1 class="centralizar destaque">trabalhando com lista</h1> 
    <p>conteudo representantado na forma 
 de uma relaçâo de itens. </p>
 
-<p class="centralizar">.The first Skyline GT-R, known by the internal Nissan designation of PGC10, was introduced on 4 February 1969, and was exclusive to Japanese Nissan dealership network called Nissan Prince Store when the Prince company was integrated into Nissan operations in 1966...</p>
+<p class="centralizar destaque">.The first Skyline GT-R, known by the internal Nissan designation of PGC10, was introduced on 4 February 1969, and was exclusive to Japanese Nissan dealership network called Nissan Prince Store when the Prince company was integrated into Nissan operations in 1966...</p>
 
 <p>.In 2008, the GT-R officially landed on American roads. Nissan dropped the Skyline name and added a twin-turbo V6 that put out 473 horsepower, propelling the GT-R to performance levels that could not only compete with, but outclass legendary American muscle cars as well as German and Italian supercars...</p>
+
+<div id="listas">
 
 <h2 class="subtitulo">nâo-ordenada</h2>
 <ul>
@@ -62,6 +80,8 @@ de uma relaçâo de itens. </p>
     <li>aguardar o sistema carregar</li>
     <li>procurar o app desejado</li>
     </ol>
+
+</div>
 
 <!-- significado das tags
 ul: unorderedlist
