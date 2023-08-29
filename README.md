@@ -24,6 +24,14 @@ pagina que queremos formatar.
 as regras vâo valer para todas as tags/
 elementos desta pagina.
 
+### externa
+
+arquivo CSS dedicado a elaboraçâo de regras CSS.
+
+este arquivo serà conectado a cada pagina HTML do seu 
+site, permitindo assim centralizar toda a estilizaçâo de um
+projeto.
+
 ---
 
 ### Sobre seletores
