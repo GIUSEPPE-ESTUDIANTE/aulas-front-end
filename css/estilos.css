@@ -70,4 +70,10 @@ h2 {
      figure{
         margin: 0;
         text-align: center;
+    
      }
+
+     img { max-width: 100%;}
+
+     /* seletor descendente */
+     a { color: red;}
