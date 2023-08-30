@@ -3,96 +3,164 @@ CSS necessarias para a formataçâo so site.*/
 
 body {
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-image: url(../imagens/web.jpg)
-
-
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: url(../imagens/web.jpg)
 }
 
 
 
 
 h1 {
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    color: skyblue;
-background-color:black;
-padding: 10px;
-box-shadow:inset 0px 0px 5px;
-border: darkblue solid 8px;
-border-style: solid;
-border-width: 8px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: skyblue;
+   background-color: black;
+   padding: 10px;
+   box-shadow: inset 0px 0px 5px;
+   border: darkblue solid 8px;
+   border-style: solid;
+   border-width: 8px;
 
-text-align: center;
-text-transform: uppercase;
+   text-align: center;
+   text-transform: uppercase;
 
-box-shadow:skyblue 0 0 20px inset ;
+   box-shadow: skyblue 0 0 20px inset;
 
 
 
-    
+
 }
 
 #container {
 
-background-color:skyblue;
-width: 80%;
-margin: auto;
-box-shadow: black 0 0 5px;
-padding: 16px;
-border-radius: 8px;
+   background-color: skyblue;
+   width: 80%;
+   margin: auto;
+   box-shadow: black 0 0 5px;
+   padding: 16px;
+   border-radius: 8px;
 }
 
 h2 {
-    font-size:20p;
-    border-bottom: solid 5px;
-    border-left: dotted 5px;
-    padding-left:10px;
+   font-size: 20p;
+   border-bottom: solid 5px;
+   border-left: dotted 5px;
+   padding-left: 10px;
 
-    /* Grupo de seletores */
-     }
-        
-     h3, p, figcaption {
-        font-family: 'Times New Roman', Times, serif;
-     }
+   /* Grupo de seletores */
+}
 
-     h3 {
-      border-radius: 10px;
-      padding: 10px;
-      
+h3,
+p,
+figcaption {
+   font-family: 'Times New Roman', Times, serif;
+}
 
-        background: linear-gradient(to right, lightblue,blue,gold);
-      
-     }
-
-     .destaque{
-        background-color: black;
-        padding: 3px;
-        color: white;
-        border-radius: 4px;
-     }
+h3 {
+   border-radius: 10px;
+   padding: 10px;
 
 
-     /* reset/limpeza */
-     figure{
-        margin: 0;
-        text-align: center;
-    
-     }
+   background: linear-gradient(to right, lightblue, blue, gold);
 
-     img { max-width: 100%;}
+}
 
-     /* seletor descendente */
-     a { color: red;}
+.destaque {
+   background-color: black;
+   padding: 3px;
+   color: white;
+   border-radius: 4px;
+}
 
-ul { padding: 0;}
 
-     li {
-      list-style-image: url(../imagens/fundo03.gif);
-      line-height: 32px;
-      }
+/* reset/limpeza */
+figure {
+   margin: 0;
+   text-align: center;
 
-      /* seletor PSEUIDO-ELEMENTO (usa 2x o dois pontos::) */
-      li::marker {
-content: "💕";
+}
 
-      }
+img {
+   max-width: 100%;
+}
+
+/* seletor descendente */
+a {
+   color: red;
+}
+
+ul {
+   padding: 0;
+}
+
+li {
+   list-style-image: url(../imagens/fundo03.gif);
+   line-height: 32px;
+}
+
+/* seletor PSEUIDO-ELEMENTO (usa 2x o dois pontos::) */
+li::marker {
+   content: "💕";
+   font-size: 16px;
+}
+
+
+/* regras para o menu */
+nav {
+   text-align: center;
+}
+
+/* regra para o estado inicial do link */
+nav a {
+   text-decoration: none;
+   font-weight: bold;
+   color: darkblue;
+   background-color: yellow;
+   width: 50%;
+   display: inline-block;
+   padding: 10px;
+   box-sizing: border-box;
+
+   /* alterandi o box model fazendo com que 
+         padding e border nâo dê bo nas dimensôes
+         finais do elemento*/
+}
+
+nav a:first-child {
+
+   border-top-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+
+}
+
+/* seletor pseudo-classe :last-child */
+nav a:last-child {
+   border-top-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+}
+
+
+
+/* regra para o estado do link acionado 
+pseudo-classe :hover(passar o mouse)
+pseudo-classe :focus(recceber foco)*/
+
+
+nav a:hover, nav a:focus {
+
+   background-color: darkblue;
+   color: white;
+}
+
+figure img{ 
+   filter: grayscale(); 
+transition: 2s;
+clip-path: circle(50% at 50% 50%);
+}
+
+figure img:hover {
+
+   clip-path: circle(70.7% at 50% 50%);
+   filter: none ;
+
+
+}
