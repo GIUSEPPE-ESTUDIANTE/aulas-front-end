@@ -11,6 +11,10 @@ body {
 
 
 h1 {
+animation-name: eu_vou_cair;
+animation-duration: 0.5s;
+animation-iteration-count: infinite;
+
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: skyblue;
    background-color: black;
@@ -153,14 +157,37 @@ nav a:hover, nav a:focus {
 
 figure img{ 
    filter: grayscale(); 
-transition: 2s;
-clip-path: circle(50% at 50% 50%);
+transition: 0.5s;
+
+transform: scale(80%);
+/* clip-path: circle(50% at 50% 50%); */
 }
 
 figure img:hover {
 
-   clip-path: circle(70.7% at 50% 50%);
+   /* clip-path: circle(70.7% at 50% 50%); */
    filter: none ;
+   transform: scale(100%) rotate(360deg);
 
 
 }
+
+/* regras de animaçâo */
+
+@keyframes eu_vou_cair {
+   /* como começa: */
+   from{transform: translatey(-100px); }
+
+   /* como termina: */
+   to {transform: translatey(0); }
+   
+}
+
+
+
+
+
+
+
+
+
