@@ -12,8 +12,8 @@ body {
 
 h1 {
 animation-name: eu_vou_cair;
-animation-duration: 0.5s;
-animation-iteration-count: infinite;
+animation-duration: 4s;
+animation-iteration-count: infinite; 
 
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: skyblue;
@@ -176,7 +176,8 @@ figure img:hover {
 
 @keyframes eu_vou_cair {
    /* como começa: */
-   from{transform: translatey(-100px); }
+   from{transform: translatey(-100px);
+   opacity: 0; }
 
    /* como termina: */
    to {transform: translatey(0); }
