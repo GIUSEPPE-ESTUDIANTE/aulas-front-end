@@ -2,6 +2,7 @@
 CSS necessarias para a formataçâo so site.*/
 
 body {
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-image: url(../imagens/web.jpg)
 
@@ -55,7 +56,12 @@ h2 {
      }
 
      h3 {
+      border-radius: 10px;
+      padding: 10px;
+      
+
         background: linear-gradient(to right, lightblue,blue,gold);
+      
      }
 
      .destaque{
@@ -77,3 +83,16 @@ h2 {
 
      /* seletor descendente */
      a { color: red;}
+
+ul { padding: 0;}
+
+     li {
+      list-style-image: url(../imagens/fundo03.gif);
+      line-height: 32px;
+      }
+
+      /* seletor PSEUIDO-ELEMENTO (usa 2x o dois pontos::) */
+      li::marker {
+content: "💕";
+
+      }

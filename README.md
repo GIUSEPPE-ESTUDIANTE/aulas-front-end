@@ -57,5 +57,17 @@ ou seja, voce desenvolvedor(a) determina onde aplicar o id
 e sua formataçâP.**ATENÇÂO!** você nâo pode reproveitar IDs,
 ou seja , seletoID deve ser usado
 
+#### grupo de seletores 
+
+regra composta poor diversos outros, ùtil quando objetivo è 
+aplicar uma mesma formataçâo em diversos elementos diferentes.
+
+
+#### descendente 
+
+regra para formataçâo de elementos que estâo dentro de outros
+elementos, permitindo assim um grau maior de precisâo ou
+especificidade
+
 
 
