@@ -193,7 +193,15 @@ figure img:hover {
    
 }
 
+/* pseudo-classes child:
+:first-child
+:last-child
+:nth-child() */
 
+
+li:first-child { color: red ;}
+li:last-child {color: gold;}
+li:nth-child(3), li:nth-child(2) { color: purple;}
 
 
 
