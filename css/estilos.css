@@ -40,10 +40,11 @@ font-family: 'Rubik Iso', cursive;
 
 #container {
 
-   background-color: skyblue;
+   background-color: rgba(135, 207, 235, 0.603);
    width: 80%;
    max-width: 1000px;
    min-width: 500px;
+   
 
 
 
