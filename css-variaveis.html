@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando variaveis no CSS</title>
+    <style>
+/* usamos o seletor pseudo-classe :root para
+declarar variaveis para uso em qualquer lugar. */
+:root{
+    /* Nome da variavel: valor da variavel */
+   --color: red;
+   --fonte: verdana;
+}
+
+h1 {color:var(--color);}
+
+h2 {
+    color: var(--color);
+    font-family: var(--fonte) Verdana;
+}
+
+p {
+    color: var(--color);
+    font-family: var(--fonte);
+
+
+}
+
+
+    </style>
+</head>
+
+<body>
+    <h1>usando variaveis no css</h1>
+    <hr>
+    <h2>Nissan-skyline</h2>
+    <p> Nissan Skyline é um carro produzido pela japonesa Nissan, cuja produção iniciou-se em 1957, quando a Prince
+        Motor Company —empresa fundada três anos antes pela Tama Electric Car Company, fabricante de veículos elétricos—
+        lançou o modelo ALSI-1, com motor da Fuji Precision Industries de 1,5 litro e 60bhp(61cv).</p>
+    <h2>back-end</h2>
+    <p>As linguagens de programação backend lidam com os bastidores das funcionalidades das aplicações web. É o código
+        que conecta a internet com o banco de dados, gerencia as conexões dos usuários e alimenta a aplicação web. O
+        backend trabalha em conjunto com o frontend para entregar o produto para o usuário final.</p>
+
+</body>
+
+</html>
